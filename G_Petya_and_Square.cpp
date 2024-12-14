@@ -23,20 +23,10 @@ const int mod=1000000007;
 const long double pi=3.141592653589793238;
 
 void solve(){
-    int n,res=0;cin>>n;
-    vector<int>v(n);
-    for(int i=0;i<n;i++)cin>>v[i];
-    sort(all(v));
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            for(int k=j+1;k<n;k++){
-                int a=v[i],b=v[j],c=v[k];
-                if(c<a+b)res++;
-                else break;
-            }
-        }
-    }
-    cout<<res<<endl;
+    int n,x,y;cin>>n>>x>>y;
+    if(n==2||(x==n/2&&y==n/2)||(x==n/2+1&&y==n/2+1)||(x==n/2+1&&y==n/2)||(x==n/2&&y==n/2+1))
+    NN
+    else YY
 }
 
 signed main()
