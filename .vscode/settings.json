@@ -8,6 +8,11 @@
         "vector": "cpp",
         "string_view": "cpp",
         "span": "cpp",
-        "stacktrace": "cpp"
+        "stacktrace": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "ranges": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp"
     }
 }
